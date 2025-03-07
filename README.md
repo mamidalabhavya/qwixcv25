@@ -25,24 +25,26 @@ QWIK CV is an advanced resume builder that leverages artificial intelligence to 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React**: UI component library for building the interactive interface
-- **TypeScript**: Type-safe JavaScript for reliable code
-- **Tailwind CSS**: Utility-first CSS framework for responsive design
-- **shadcn/ui**: High-quality UI components built with Radix UI and Tailwind
-- **Three.js**: JavaScript 3D library for interactive visualizations
-- **html2pdf.js**: Library for generating PDF documents from HTML content
-- **Recharts**: Composable charting library for data visualization
+- ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) **React**: UI component library for building the interactive interface  
+- ![TypeScript](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg) **TypeScript**: Type-safe JavaScript for reliable code  
+- ![Tailwind CSS](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg) **Tailwind CSS**: Utility-first CSS framework for responsive design  
+- ![shadcn/ui](https://shadcn.dev/favicon.ico) **shadcn/ui**: High-quality UI components built with Radix UI and Tailwind  
+- ![Three.js](https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Icon.svg) **Three.js**: JavaScript 3D library for interactive visualizations  
+- ![html2pdf.js](https://www.pngfind.com/pngs/m/678-6787845_pdf-file-format-document-icon-hd-png-download.png) **html2pdf.js**: Library for generating PDF documents from HTML content  
+- ![Recharts](https://recharts.org/logo-og.png) **Recharts**: Composable charting library for data visualization  
 
 ### Backend Libraries
-- **Tanstack Query**: Data fetching and state management library
-- **React Router**: Navigation and routing for the application
-- **React Hook Form**: Form validation and handling
-- **date-fns**: Date utility library for manipulation and formatting
+- ![Tanstack Query](https://tanstack.com/_next/static/media/react-query-logo.03ff1d7b.svg) **Tanstack Query**: Data fetching and state management library  
+- ![React Router](https://reactrouter.com/favicon.ico) **React Router**: Navigation and routing for the application  
+- ![React Hook Form](https://react-hook-form.com/favicon.ico) **React Hook Form**: Form validation and handling  
+- ![date-fns](https://date-fns.org/favicon.ico) **date-fns**: Date utility library for manipulation and formatting  
 
 ### API Integrations
-- **AI Integration**: AI-powered content generation and analysis
-- **Indeed API**: Job search and listing integration
-- **ATS Scanner API**: Resume analysis and optimization
+- ![AI](https://upload.wikimedia.org/wikipedia/commons/1/1b/Artificial_Intelligence.svg) **AI Integration**: AI-powered content generation and analysis  
+- ![Indeed API](https://upload.wikimedia.org/wikipedia/commons/6/62/Indeed_logo.png) **Indeed API**: Job search and listing integration  
+- ![ATS Scanner API](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/ATS_logo.svg/512px-ATS_logo.svg.png) **ATS Scanner API**: Resume analysis and optimization  
+- ![Gemini AI](https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Gemini_Icon.svg) **Gemini AI API**: AI suggestions based on user details  
+
 
 ## 📐 Architecture
 
