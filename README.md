@@ -104,9 +104,9 @@ npm run dev
 ## 👨‍💻 Development Team
 
 - **Sai Praneeth Reddy Dhadi** - Full Stack Developer
+- **Manideep Reddy Kasireddy** - Full Stack Developer
 - **Pravalika Batchu** - UI/UX Designer (1602-23-733-308)
-- **Bhavana Vemula** - Backend Developer
-- **Vaishnavi Konda** - Frontend Developer
+
 
 ## 📄 License
 
