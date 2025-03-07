@@ -17,8 +17,8 @@ const features = [
     color: "from-blue-500 to-cyan-600"
   },
   {
-    name: "Premium Templates",
-    description: "Choose from a wide range of professionally designed templates that can be fully customized to match your personal style.",
+    name: "ATS-Friendly Template",
+    description: "Use a professionally designed, ATS-optimized resume template for better job application success.",
     icon: Layout,
     color: "from-pink-500 to-rose-600"
   },
@@ -36,7 +36,7 @@ const features = [
   },
   {
     name: "One-Click Sharing",
-    description: "Instantly share your resume with potential employers or download in multiple formats with a single click.",
+    description: "Instantly share your resume with potential employers, social media or download in pdf format with a single click.",
     icon: Zap,
     color: "from-violet-500 to-purple-600"
   },
