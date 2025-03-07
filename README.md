@@ -24,26 +24,27 @@ QWIK CV is an advanced resume builder that leverages artificial intelligence to 
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) **React**: UI component library for building the interactive interface  
-- ![TypeScript](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg) **TypeScript**: Type-safe JavaScript for reliable code  
-- ![Tailwind CSS](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg) **Tailwind CSS**: Utility-first CSS framework for responsive design  
-- ![shadcn/ui](https://shadcn.dev/favicon.ico) **shadcn/ui**: High-quality UI components built with Radix UI and Tailwind  
-- ![Three.js](https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Icon.svg) **Three.js**: JavaScript 3D library for interactive visualizations  
-- ![html2pdf.js](https://www.pngfind.com/pngs/m/678-6787845_pdf-file-format-document-icon-hd-png-download.png) **html2pdf.js**: Library for generating PDF documents from HTML content  
-- ![Recharts](https://recharts.org/logo-og.png) **Recharts**: Composable charting library for data visualization  
+### Frontend  
+- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white) **React** – UI component library  
+- ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) **TypeScript** – Type-safe JavaScript  
+- ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) **Tailwind CSS** – Utility-first CSS  
+- ![shadcn/ui](https://img.shields.io/badge/-shadcn/ui-000000?style=flat) **shadcn/ui** – UI components  
+- ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat&logo=three.js&logoColor=white) **Three.js** – 3D JavaScript library  
+- ![html2pdf.js](https://img.shields.io/badge/-html2pdf.js-FF0000?style=flat) **html2pdf.js** – PDF generation  
+- ![Recharts](https://img.shields.io/badge/-Recharts-0088CC?style=flat&logo=recharts&logoColor=white) **Recharts** – Data visualization  
 
-### Backend Libraries
-- ![Tanstack Query](https://tanstack.com/_next/static/media/react-query-logo.03ff1d7b.svg) **Tanstack Query**: Data fetching and state management library  
-- ![React Router](https://reactrouter.com/favicon.ico) **React Router**: Navigation and routing for the application  
-- ![React Hook Form](https://react-hook-form.com/favicon.ico) **React Hook Form**: Form validation and handling  
-- ![date-fns](https://date-fns.org/favicon.ico) **date-fns**: Date utility library for manipulation and formatting  
+### Backend Libraries  
+- ![Tanstack Query](https://img.shields.io/badge/-Tanstack%20Query-FF4154?style=flat) **Tanstack Query** – State management  
+- ![React Router](https://img.shields.io/badge/-React%20Router-CA4245?style=flat&logo=react-router&logoColor=white) **React Router** – Routing  
+- ![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-EC5990?style=flat) **React Hook Form** – Form handling  
+- ![date-fns](https://img.shields.io/badge/-date--fns-008000?style=flat) **date-fns** – Date utilities  
 
-### API Integrations
-- ![AI](https://upload.wikimedia.org/wikipedia/commons/1/1b/Artificial_Intelligence.svg) **AI Integration**: AI-powered content generation and analysis  
-- ![Indeed API](https://upload.wikimedia.org/wikipedia/commons/6/62/Indeed_logo.png) **Indeed API**: Job search and listing integration  
-- ![ATS Scanner API](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/ATS_logo.svg/512px-ATS_logo.svg.png) **ATS Scanner API**: Resume analysis and optimization  
-- ![Gemini AI](https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Gemini_Icon.svg) **Gemini AI API**: AI suggestions based on user details  
+### API Integrations  
+- ![AI](https://img.shields.io/badge/-AI%20Integration-FF9900?style=flat) **AI Integration** – AI-powered features  
+- ![Indeed API](https://img.shields.io/badge/-Indeed%20API-003A9B?style=flat) **Indeed API** – Job search  
+- ![ATS Scanner API](https://img.shields.io/badge/-ATS%20Scanner-006400?style=flat) **ATS Scanner API** – Resume analysis  
+- ![Gemini AI](https://img.shields.io/badge/-Gemini%20AI-4285F4?style=flat&logo=google&logoColor=white) **Gemini AI API** – AI suggestions  
+
 
 
 ## 📐 Architecture
@@ -105,8 +106,8 @@ npm run dev
 
 ## 👨‍💻 Development Team
 
-- **Sai Praneeth Reddy Dhadi** - Full Stack Developer
-- **Manideep Reddy Kasireddy** - Full Stack Developer
+- **Sai Praneeth Reddy Dhadi** - Full Stack Developer (1602-23-733-038)
+- **Manideep Reddy Kasireddy** - Full Stack Developer (1602-23-733-022)
 - **Pravalika Batchu** - UI/UX Designer (1602-23-733-308)
 
 
