@@ -11,7 +11,6 @@ interface TeamMember {
   name: string;
   role: string;
   education: string;
-  rollNo?: string;
   bio: string;
   expertise: string[];
   achievements: string[];
@@ -44,7 +43,6 @@ const About = () => {
       name: "Dhadi Sai Praneeth Reddy",
       role: "Founder & CTO of QwikZen Group India",
       education: "Student at Vasavi College of Engineering, CSE Department",
-      rollNo: "1602-23-733-038",
       bio: "Visionary leader behind QwikZen, a zero-investment AI-driven software development startup focused on cutting-edge AI solutions, real-time applications, and hardware innovations.",
       expertise: ["AI", "Machine Learning", "Software Development", "Full-Stack Engineering"],
       achievements: [
@@ -64,7 +62,6 @@ const About = () => {
       name: "Kasireddy Manideep Reddy",
       role: "Co-Founder & CEO of QwikZen",
       education: "Student at Vasavi College of Engineering, CSE Department",
-      rollNo: "1602-23-733-022",
       bio: "Strategic leader driving QwikZen's growth, innovation, and AI-first approach.",
       expertise: ["Software Engineering", "AI Technologies", "Business Strategy"],
       achievements: [
@@ -81,7 +78,6 @@ const About = () => {
       name: "Pravalika Batchu",
       role: "Full-Stack Developer, QwikZen Group India",
       education: "Student at Vasavi College of Engineering, CSE Department",
-      rollNo: "1602-23-733-311",
       bio: "Core developer specializing in front-end and back-end development for QwikZen's AI-driven products.",
       expertise: ["Full-Stack Development", "UI/UX Design", "Scalable Web Architectures"],
       achievements: [
@@ -143,9 +139,6 @@ const About = () => {
                       <GraduationCap className="w-4 h-4 mr-2 text-modern-blue-500" />
                       {member.education}
                     </p>
-                    {member.rollNo && (
-                      <p className="text-sm text-gray-600 mb-3">Roll No: {member.rollNo}</p>
-                    )}
                     
                     <p className="text-sm text-gray-700 mb-4">{member.bio}</p>
                     
