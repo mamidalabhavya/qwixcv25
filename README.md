@@ -22,6 +22,116 @@ QWIK CV is an advanced resume builder that leverages artificial intelligence to 
 - **Job Search**: Browse job listings that match your skills and experience
 - **Share to Companies**: Email your resume directly to potential employers
 
+## 📊 Website Flow Chart
+
+```mermaid
+graph TD
+    A[Landing Page] --> B{User Choice}
+    
+    B --> C[Resume Builder]
+    B --> D[ATS Scanner]
+    B --> E[Resume Compare]
+    B --> F[Job Board]
+    
+    C --> C1[Personal Info]
+    C1 --> C2[Education]
+    C2 --> C3[Experience]
+    C3 --> C4[Skills - AI Suggestions]
+    C4 --> C5[Projects - AI Descriptions]
+    C5 --> C6[Preview & PDF Export]
+    
+    D --> D1[Upload Resume]
+    D1 --> D2[Add Job Description]
+    D2 --> D3[AI Analysis]
+    D3 --> D4[ATS Score & Recommendations]
+    
+    E --> E1[Upload Resume A]
+    E1 --> E2[Upload Resume B]
+    E2 --> E3[AI Comparison]
+    E3 --> E4[Detailed Report & PDF]
+    
+    F --> F1[Browse Jobs]
+    F1 --> F2[Filter & Search]
+    F2 --> F3[Job Recommendations]
+    
+    C6 --> G[Share to Company]
+    G --> G1[AI Email Generation]
+    G1 --> G2[Email Client Integration]
+```
+
+## 📁 File Structure
+
+```
+qwik-cv/
+├── public/                          # Static assets
+│   ├── og-image.png                # Open Graph image
+│   └── favicon.ico                 # Site favicon
+│
+├── src/
+│   ├── components/                 # Reusable UI components
+│   │   ├── home/                   # Landing page components
+│   │   │   ├── HeroSection.tsx     # Hero banner with CTA
+│   │   │   ├── FeaturesSection.tsx # Features showcase
+│   │   │   ├── HowItWorksSection.tsx # Process explanation
+│   │   │   ├── TestimonialsSection.tsx # User testimonials
+│   │   │   └── CtaSection.tsx      # Call-to-action section
+│   │   │
+│   │   ├── layout/                 # Layout components
+│   │   │   └── MainLayout.tsx      # Main site layout with nav/footer
+│   │   │
+│   │   ├── resume/                 # Resume-specific components
+│   │   │   ├── ATSScoreDisplay.tsx # ATS score visualization
+│   │   │   ├── JobSuggestions.tsx  # Job recommendations
+│   │   │   └── ResumeComparisonScanner.tsx # Resume comparison logic
+│   │   │
+│   │   └── ui/                     # shadcn/ui components
+│   │       ├── button.tsx          # Button component
+│   │       ├── input.tsx           # Input component
+│   │       ├── card.tsx            # Card component
+│   │       └── [50+ other UI components] # Complete UI library
+│   │
+│   ├── pages/                      # Route components
+│   │   ├── Index.tsx               # Landing page
+│   │   ├── ResumeBuilder.tsx       # Resume creation interface
+│   │   ├── ResumePreview.tsx       # Resume preview & export
+│   │   ├── ATSScanner.tsx          # ATS analysis tool
+│   │   ├── ResumeCompare.tsx       # Resume comparison tool
+│   │   ├── JobBoard.tsx            # Job search interface
+│   │   ├── ShareToCompany.tsx      # Email sharing interface
+│   │   ├── About.tsx               # About page
+│   │   ├── Contact.tsx             # Contact page
+│   │   └── NotFound.tsx            # 404 error page
+│   │
+│   ├── utils/                      # Utility functions
+│   │   ├── geminiApi.ts            # Google Gemini AI integration
+│   │   ├── atsScoreApi.ts          # ATS scoring logic
+│   │   ├── comparisonReportApi.ts  # Resume comparison logic
+│   │   ├── jobBoardApi.ts          # Job search functionality
+│   │
+│   ├── types/                      # TypeScript type definitions
+│   │   ├── job.ts                  # Job-related types
+│   │
+│   ├── data/                       # Static data
+│   │   └── recommendedJobs.ts      # Sample job data
+│   │
+│   ├── context/                    # React contexts
+│   │   └── ThemeContext.tsx        # Theme management
+│   │
+│   ├── hooks/                      # Custom React hooks
+│   │   ├── use-mobile.tsx          # Mobile detection hook
+│   │   └── use-toast.ts            # Toast notification hook
+│   │
+│   └── lib/                        # Library configurations
+│       └── utils.ts                # Utility functions (cn, etc.)
+│
+├── configuration files
+├── vite.config.ts                  # Vite configuration
+├── tailwind.config.ts              # Tailwind CSS configuration
+├── tsconfig.json                   # TypeScript configuration
+└── package.json                    # Dependencies and scripts
+```
+
+
 ## 🛠️ Technology Stack
 
 ### Frontend  
