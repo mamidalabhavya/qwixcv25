@@ -75,7 +75,7 @@ const About = () => {
     },
     {
       id: 3,
-      name: "Pravalika Batchu",
+      name: "Bhavya",
       role: "Full-Stack Developer, QwikZen Group India",
       education: "Student at Vasavi College of Engineering, CSE Department",
       bio: "Core developer specializing in front-end and back-end development for QwikZen's AI-driven products.",
